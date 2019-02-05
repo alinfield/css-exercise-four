@@ -21,6 +21,7 @@ body {
 }
 
 .preview-baku {
+  background-image: url("../images/baku.jpg");
   position: relative;
   text-align: center;
   color: white;
@@ -36,6 +37,7 @@ body {
 }
 
 .preview-london {
+  background-image: url("../images/london.png");
   position: relative;
   text-align: center;
   color: white;
@@ -51,6 +53,7 @@ body {
 }
 
 .preview-madrid {
+  background-image: url("../images/madrid.jpg");
   position: relative;
   text-align: center;
   color: white;
@@ -66,6 +69,7 @@ body {
 }
 
 .preview-rome {
+  background-image: url("../images/rome.jpg");
   position: relative;
   text-align: center;
   color: white;
@@ -84,6 +88,7 @@ body {
    div {
     margin: 1%;
     width: 48%;
+    display: inline-block
   }
   .title {
     width: 100%;
@@ -94,6 +99,7 @@ body {
    div {
     margin: 1%;
     width: 23%;
+    display: inline-block
   }
   .title {
     width: 100%;
