@@ -22,8 +22,12 @@ body {
 
 .preview-baku {
   background-image: url("../images/baku.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
   padding-bottom: 10px;
   box-sizing: border-box;
@@ -38,8 +42,12 @@ body {
 
 .preview-london {
   background-image: url("../images/london.png");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
   padding-bottom: 10px;
   box-sizing: border-box;
@@ -54,12 +62,16 @@ body {
 
 .preview-madrid {
   background-image: url("../images/madrid.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
   padding-bottom: 10px;
   box-sizing: border-box;
-}
+  }
 
 .madrid-text {
   position: absolute;
@@ -70,12 +82,16 @@ body {
 
 .preview-rome {
   background-image: url("../images/rome.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
   padding-bottom: 10px;
   box-sizing: border-box;
-}
+  }
 
 .rome-text {
   position: absolute;
@@ -98,7 +114,7 @@ body {
 @media screen and (min-width: 991px){
    div {
     margin: 1%;
-    width: 23%;
+    width: 22%;
     display: inline-block
   }
   .title {
