@@ -103,7 +103,7 @@ body {
 @media screen and (min-width: 575px){
    div {
     margin: 1%;
-    width: 48%;
+    width: 45%;
     display: inline-block
   }
   .title {
