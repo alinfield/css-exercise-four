@@ -1,4 +1,101 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  box-sizing: border-box;
+  padding-top: 20px;
+  width: auto;
+}
+
+.title {
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 120%
+}
+
+.preview-baku {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.baku-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 140%;
+}
+
+.preview-london {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.london-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 140%;
+}
+
+.preview-madrid {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.madrid-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 140%;
+}
+
+.preview-rome {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.rome-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 140%;
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+  .title {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 23%;
+  }
+  .title {
+    width: 100%;
+  }
 }
