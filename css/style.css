@@ -7,115 +7,73 @@ body {
 }
 
 .container {
-  box-sizing: border-box;
-  padding-top: 20px;
-  width: auto;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.title {
-  padding-bottom: 20px;
+.container > h1 {
+  margin: 30px 0;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  letter-spacing: .2em;
   text-align: center;
-  font-family: 'montserrat', sans-serif;
   text-transform: uppercase;
-  font-size: 120%
 }
 
-.preview-baku {
+.preview h1 {
+  padding: 10%;
+  text-align: left;
+  font-size: 2.4em;
+}
+
+.preview {
+  height: 300px;
+  margin: 2em 0;
+  width: 100%;
+  background-position: left;
+  background-size: cover;
+}
+
+.baku {
   background-image: url("../images/baku.jpg");
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: left;
-  color: white;
-  padding-bottom: 10px;
-  box-sizing: border-box;
 }
 
-.baku-text {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 140%;
-}
-
-.preview-london {
+.london {
   background-image: url("../images/london.png");
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: left;
-  color: white;
-  padding-bottom: 10px;
-  box-sizing: border-box;
 }
 
-.london-text {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 140%;
-}
-
-.preview-madrid {
+.madrid {
   background-image: url("../images/madrid.jpg");
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: left;
-  color: white;
-  padding-bottom: 10px;
-  box-sizing: border-box;
-  }
-
-.madrid-text {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 140%;
 }
 
-.preview-rome {
+.rome {
   background-image: url("../images/rome.jpg");
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: left;
-  color: white;
-  padding-bottom: 10px;
-  box-sizing: border-box;
-  }
-
-.rome-text {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 140%;
 }
 
 @media screen and (min-width: 575px){
-   div {
+  .container {
+    width: 80%;
+  }
+  .preview {
     margin: 1%;
-    width: 45%;
-    display: inline-block
+    width: 48%;
+    float: left;
+    height: 200px;
   }
   .title {
-    width: 100%;
+    width: 93%;
   }
 }
 
 @media screen and (min-width: 991px){
-   div {
+  .container {
+    width: 70%;
+  }
+  .preview {
     margin: 1%;
-    width: 22%;
-    display: inline-block
+    width: 23%;
+    float: left;
+    height: 200px;
   }
   .title {
     width: 100%;
